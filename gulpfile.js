@@ -30,4 +30,8 @@ gulp.task('run', ['build'], () => {
         .pipe(plugins.webserver($.webserver))
 })
 
+gulp.task('install', () => {
+    return plugins.bower()
+})
+
 gulp.task('default', ['build'])
