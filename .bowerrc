@@ -1,0 +1,11 @@
+{
+    "directory": "public/dist",
+    "registry": {
+        "search": [
+            "https://npm.nativecode.com/repository/bower/"
+        ]
+    },
+    "resolvers": [
+        "bower-nexus3-resolver"
+    ]
+}

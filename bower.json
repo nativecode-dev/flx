@@ -1,0 +1,21 @@
+{
+  "name": "flx",
+  "description": "Manages various media-related apps in a central location.",
+  "main": "dist/server.js",
+  "authors": [
+    "Mike Pham (support@nativecode.com)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/dist",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^v15.4.2"
+  }
+}
