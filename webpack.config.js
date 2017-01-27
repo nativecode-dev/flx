@@ -9,7 +9,7 @@ module.exports = {
     },
     module: {
         loaders: [{
-            test: /\.tsx?$/,
+            test: /\.ts(x)?$/,
             loader: 'awesome-typescript-loader'
         }],
         preLoaders: [{
@@ -19,7 +19,7 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.join(__dirname, 'public/dist')
+        path: path.join(__dirname, 'public/components')
     },
     resolve: {
         extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js']

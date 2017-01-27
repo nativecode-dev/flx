@@ -1,5 +1,5 @@
 {
-    "directory": "public/dist",
+    "directory": "public/components",
     "registry": {
         "search": [
             "https://npm.nativecode.com/repository/bower/"
