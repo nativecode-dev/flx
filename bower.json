@@ -1,7 +1,7 @@
 {
   "name": "flx",
   "description": "Manages various media-related apps in a central location.",
-  "main": "dist/server.js",
+  "main": "server/app.js",
   "authors": [
     "Mike Pham (support@nativecode.com)"
   ],

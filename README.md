@@ -2,7 +2,7 @@ Developer Installation
 ---
 
 ```
-npm install --global --production bower typescript
+npm install --global --production bower
 ```
 
 ```
